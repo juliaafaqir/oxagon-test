@@ -4,6 +4,8 @@ import {MatIconModule} from '@angular/material/icon';
 import { RouterModule, Routes } from '@angular/router';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations' 
 
 
 import { AppComponent } from './app.component';
@@ -30,7 +32,8 @@ export const routes =  [
     SearchBarComponent,
     IconCardComponent,
     RulechainsComponent,
-    CustomersComponent
+    CustomersComponent,
+    
     
   ],
   imports: [
@@ -40,7 +43,8 @@ export const routes =  [
     MatSidenavModule,
     RouterModule,
     RouterModule.forRoot(routes),
-    
+    MatListModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
