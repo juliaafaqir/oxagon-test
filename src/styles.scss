@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Helvetica";
+    src: local("Helvetica"), url(./assets/HelveticaNeue.ttf) format("truetype");
+}
+@font-face {
+    font-family: "HelveticaB";
+    src: local("HelveticaB"), url(./assets/HelveticaNeueBd.ttf) format("truetype");
+}
+.container{
+    display:flex;
+    font-family: "Helvetica";
+}

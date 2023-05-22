@@ -1,0 +1,42 @@
+.container{
+    padding:0px 30px 0px 50px;
+    flex-direction: column;
+}
+
+h2{
+    font-family: "HelveticaB";
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-cards{
+    padding:20px 80px 0px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    // grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
+}
+
+.profile-icon{
+    display:block;
+    z-index: 1;
+    position:relative;
+    img{
+        width:40px;
+    }
+}
+
+.profile-icon span.icon{
+    z-index: 2;
+    position:absolute;
+    right:8px;
+    top:8px;
+    img{
+        width:23px;
+    }
+}
