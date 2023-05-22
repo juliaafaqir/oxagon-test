@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { routes } from '../../app.module';
 
 @Component({
   selector: 'app-side-nav',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./side-nav.component.scss']
 })
 export class SideNavComponent {
+  routes = routes;
+  itemImageUrl = "../../../assets/home-icon.svg";
 
 }

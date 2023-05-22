@@ -13,7 +13,11 @@
     <div class="side-nav-bottom">
         <div class="design-section">
             <ul>
-                <li><img src="../../../assets/home-icon.svg" alt="">Home</li>
+                <li *ngFor="let route of routes"
+                li
+                [routerLink]="route.path"
+                ><img [src]="'../../../assets/'+route.path+'-icon.svg'" alt="icon">{{route.label}}</li>
+                <!-- <li><img src="../../../assets/home-icon.svg" alt="">Home</li>
                 <li><img src="../../../assets/rule-chains.svg" alt="">Rule chains</li>
                 <li><img src="../../../assets/person-box.svg" alt="">Customers</li>
                 <li><img src="../../../assets/building.svg" alt="">Assets</li>
@@ -23,9 +27,9 @@
                 <li><img src="../../../assets/hdd-rack.svg" alt="">Dashboard Management</li>
                 <li><img src="../../../assets/inboxes2.svg" alt="">Audit</li>
                 <li><img src="../../../assets/layers.svg" alt="">Version control</li>
-                <li><img src="../../../assets/settings.svg" alt="">System Settings </li>
+                <li><img src="../../../assets/settings.svg" alt="">System Settings </li> -->
 
             </ul>
         </div>
     </div>
-</div>
+
