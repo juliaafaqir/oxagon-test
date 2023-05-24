@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "HelveticaM";
+  src: local("HelveticaM"), url(./assets/HelveticaNeueMedium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HelveticaB";
+  src: local("HelveticaB"), url(./assets/HelveticaNeueBd.ttf) format("truetype");
+}
+@font-face {
+  font-family: "HelveticaL";
+  src: local("HelveticaL"), url(./assets/HelveticaNeueLight.ttf) format("truetype");
+}
 .container {
   display: flex;
-}
+  font-family: "HelveticaL";
+}/*# sourceMappingURL=styles.css.map */

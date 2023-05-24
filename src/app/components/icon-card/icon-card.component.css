@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #E8EAEC;
+  border-radius: 6px;
+  padding: 15px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.121);
+  width: 250px;
+  gap: 15px;
+}
+
+.card-icon {
+  display: block;
+  z-index: 1;
+  position: relative;
+}
+
+.card-icon span.icon {
+  position: absolute;
+  z-index: 2;
+  top: 18px;
+  right: 208px;
+}
+.card-icon span.icon img {
+  color: "red";
+}
+
+.card-icon span.bg-icon {
+  position: absolute;
+  z-index: 2;
+  top: 25px;
+  left: 60%;
+}
+
+.title {
+  font-family: "helveticaB";
+}/*# sourceMappingURL=icon-card.component.css.map */

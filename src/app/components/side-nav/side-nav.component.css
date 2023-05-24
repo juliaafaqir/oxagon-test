@@ -1,3 +1,74 @@
 .container {
   flex-direction: column;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.121);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  border-radius: 6px;
+  display: flex;
+  padding: 10px;
+  gap: 15px;
+  align-items: center;
+}
+ul li mat-icon {
+  margin: 0;
+  text-align: center;
+  fill: none;
+}
+ul li:hover {
+  background-color: rgba(152, 152, 152, 0.078);
+}
+ul li:focus {
+  background-color: rgba(152, 152, 152, 0.078);
+  font-family: "HelveticaM";
+}
+
+.side-nav-top {
+  background: linear-gradient(137.42deg, #203265 2.16%, #0398C4 98.28%);
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.side-nav-bottom {
+  margin-top: -12px;
+  border-radius: 4px;
+  background-color: white;
+  border-color: #E8EAEC;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+}
+.logo #logo {
+  padding: 10px;
+}
+
+.title {
+  color: white;
+  padding: 10px;
+}
+.title h3, .title h4 {
+  margin: 0;
+}
+
+.example-container {
+  width: 500px;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding: 20px;
 }/*# sourceMappingURL=side-nav.component.css.map */
